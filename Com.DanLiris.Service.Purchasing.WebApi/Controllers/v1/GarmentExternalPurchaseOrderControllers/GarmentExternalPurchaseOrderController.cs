@@ -410,6 +410,7 @@ namespace Com.DanLiris.Service.Purchasing.WebApi.Controllers.v1.GarmentExternalP
                             i.SmallQuantity,
                             i.SmallUom,
                             i.PricePerDealUnit,
+                            i.Remark
                         })
                     }).ToList()
                 );
